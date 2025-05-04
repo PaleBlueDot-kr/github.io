@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Conatct</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header>
+      <div class="haeader-inner">
+        <h1>
+        <a href="index.html">DevStudyNote</a>
+        </h1>
+        <nav>
+        <a href="About.html">About</a>
+        <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+  <div class="container contact-page">
+    <main>
+      <h2>Contact</h2>
+      <p>문의나 피드백이 있으시면 아래 폼을 통해 연락해주세요.</p>
+
+      <form class="contact-form" id="contactForm">
+        <label for="name">이름</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">이메일</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">메시지</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">보내기</button>
+      </form>
+    </main>
+  </div>
+
+  <footer>
+    &copy; 2025 DevStudyNote made by ChatGPT
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
